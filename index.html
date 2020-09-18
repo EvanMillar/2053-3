@@ -1,54 +1,309 @@
 
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
+
 <head>
-<meta charset="UTF-8">
+
+  <meta charset="UTF-8">
+  
 <link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
 <meta name="apple-mobile-web-app-title" content="CodePen">
+
 <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
 <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
-<title>CodePen - AAcoding02</title>
+
+
+  <title>CodePen - 2053</title>
+  
+  
+  
+  
 <style>
-.correct{
-  background:green;
+body{
+  background-image: url("https://adagebiopower.com/wp-content/uploads/2018/08/unmarked-world-map-color-blank-world-map-poster-of-unmarked-world-map.jpg");
+  background-repeat:no-repeat;
+}
+#timerdiv{
+  background:white;
+  height:50px;
+}
+#q1{
+  position:absolute;
+  left:18.3%;
+  top:20%;
+  width:40px;
+}
+.devicer {
+  width: .2em;
+  display: block;
+  height: 20px;
+  background-color: #4b4b4d;
+  margin: 6px auto 0;
+  position:absolute;
+  left:19.5%;
+  top:22.6%;
+}
+#q2{
+  position:absolute;
+  left:11.5%;
+  top:55%;
+  width:40px;
+}
+.devicer2 {
+  width: .2em;
+  display: block;
+  height: 20px;
+  background-color: #4b4b4d;
+  margin: 6px auto 0;
+  position:absolute;
+  left:12.5%;
+  top:58%;
+}
+#q3{
+  position:absolute;
+  left:30%;
+  top:30%;
+  width:40px;
+}
+.devicer3 {
+  width: .2em;
+  display: block;
+  height: 20px;
+  background-color: #4b4b4d;
+  margin: 6px auto 0;
+  position:absolute;
+  left:31.2%;
+  top:33%;
+}
+#q4{
+  position:absolute;
+  left:4.2%;
+  top:32%;
+  width:40px;
+}
+.devicer4 {
+  width: .2em;
+  display: block;
+  height: 20px;
+  background-color: #4b4b4d;
+  margin: 6px auto 0;
+  position:absolute;
+  left:5.4%;
+  top:34.6%;
+}
+#q5{
+  position:absolute;
+  left:36%;
+  top:20%;
+  width:40px;
+}
+.devicer5 {
+  width: .2em;
+  display: block;
+  height: 20px;
+  background-color: #4b4b4d;
+  margin: 6px auto 0;
+  position:absolute;
+  left:37.06%;
+  top:22.8%;
+}
+#q6{
+  position:absolute;
+  left:25.6%;
+  top:54.8%;
+  width:40px;
+}
+.devicer6 {
+  width: .2em;
+  display: block;
+  height: 20px;
+  background-color: #4b4b4d;
+  margin: 6px auto 0;
+  position:absolute;
+  left:26.7%;
+  top:57.6%;
+}
+#q7{
+  position:absolute;
+  left:41.5%;
+  top:70.2%;
+  width:40px;
+}
+.devicer7 {
+  width: .2em;
+  display: block;
+  height: 20px;
+  background-color: #4b4b4d;
+  margin: 6px auto 0;
+  position:absolute;
+  left:42.7%;
+  top:73%;
+}
+#q8{
+  position:absolute;
+  left:28%;
+  top:16%;
+  width:40px;
+}
+.devicer8 {
+  width: .2em;
+  display: block;
+  height: 20px;
+  background-color: #4b4b4d;
+  margin: 6px auto 0;
+  position:absolute;
+  left:29.24%;
+  top:19%;
+}
+#q9{
+  position:absolute;
+  left:23%;
+  top:28%;
+  width:40px;
+}
+.devicer9 {
+  width: .2em;
+  display: block;
+  height: 20px;
+  background-color: #4b4b4d;
+  margin: 6px auto 0;
+  position:absolute;
+  left:24.2%;
+  top:30.6%;
+}
+#q10{
+  position:absolute;
+  left:18.35%;
+  top:32.1%;
+  width:40px;
+}
+.devicer10 {
+  width: .2em;
+  display: block;
+  height: 20px;
+  background-color: #4b4b4d;
+  margin: 6px auto 0;
+  position:absolute;
+  left:19.5%;
+  top:35%;
+}
+
+.correct {
+  background: green;
 }
 
 .incorrect{
-  background:red;
+  background: red;
 }
-body{
-  background:blue;
-}
-h1{
-  color:yellow 
+.correct {
+  color: blue;
 }
 </style>
+
+  
+  
+  
+  
+
 </head>
-<body translate="no">
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<h1>EJM the Best's bestest math<h1>
-<ol>
-<li> 2+3 <input data-correct="5" /></li>
-<li> \( 2^3 \) <input data-correct="8" /></li>
-<li> \( \sqrt[3]{125}\) <input data-correct="5" /></li>
-<li> \( 8^\frac{1}{3} \) <input data-correct="2" /></li>
-<li> \( 2x^2=98 what is x\) <input data-correct="7" /></li>
-<ol>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-<script id="rendered-js">
+
+<body translate="no" >
+  <div id="timerdiv">
+  How long will it take you to name these ten countries( capitalization required): <span id="theTimer">0</span>
+</div>
+
+
+<input id="q1" data-correct="Spain"/>
+
+<div class="devicer"></div>
+
+<input id="q2" data-correct="Brazil"/>
+
+<div class="devicer2"></div>
+
+<input id="q3" data-correct="India"/>
+
+<div class="devicer3"></div>
+
+<input id="q4" data-correct="Mexico"/>
+
+<div class="devicer4"></div>
+
+<input id="q5" data-correct="North Korea"/>
+
+<div class="devicer5"></div>
+
+<input id="q6" data-correct="Madagascar"/>
+
+<div class="devicer6"></div>
+
+<input id="q7" data-correct="New Zealand"/>
+
+<div class="devicer7"></div>
+
+<input id="q8" data-correct="Kazakhstan"/>
+
+<div class="devicer8"></div>
+
+<input id="q9" data-correct="Egypt"/>
+
+<div class="devicer9"></div>
+
+<input id="q10" data-correct="Mali"/>
+
+<div class="devicer10"></div>
+
+<audio id="good_job_snd" controls style = "visibility:hidden">
+  <source src="https://seattleacademy.github.io/2052-7/good_job.m4a" type="audio/mpeg">
+</audio>
+<audio  id="sad" controls style = "visibility:hidden">
+  <source src="https://math.seattleacademy.org/garyanderson/snd/sad.mp3" type "audio/mpeg">
+</audio>
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+  
+      <script id="rendered-js" >
+sad = document.getElementById("sad")
+goo_job_snd = document.getElementById("good_job_snd")
+setInterval(onTimer,1000);
+function onTimer(){
+  let theTimer = Number($("#theTimer").text());
+  theTimer = theTimer + 1;
+  $("#theTimer").text(theTimer);
+}
+
 $("input").change(onChange);
+
 
 function onChange(evt){
   let correct = $(this).data("correct");
   let response = $(this).val();
   if(correct == response){
+       
+  
     $(this).removeClass("incorrect").addClass("correct");
-  } else
+    good_job_snd.play();
+  } 
+  
+ else
     {
       $(this).removeClass("correct").addClass("incorrect");
+  {
+        sad.play();
+      }
+   
+      
     }
-}
+       
+      
+    }
     </script>
+
+  
+
 </body>
+
 </html>
+ 
